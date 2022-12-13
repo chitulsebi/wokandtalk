@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,600;0,700;0,900;1,200;1,900&display=swap');
+body{
+background-color: #151412;
+font-size: 15px;
+font-family: 'Montserrat', sans-serif;
+}
+h1{
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+}
+h1:hover{
+    color:rgb(110, 90, 81);
+}
+h2 {
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 1em;
+    color: azure;
+}
+h3{
+    font-size: 20px;
+    text-align: center;
+    color: azure;
+}
+.azure{
+    color: azure !important;   
+}
+.padding{
+    padding: 0 15% 0 15%;
+}
+.navbar{
+    background-color: #0c0a0a;
+}
+.nav-link:hover,  .socials a:hover {
+    color:rgb(110, 90, 81) !important;
+}
+.btn{
+    background-color:  rgb(61, 48, 44);
+    color: azure;
+}
+.btn:hover{
+    background-color: rgb(110, 90, 81);
+    color: azure;
+}
+.carousel-item .ratio img, .ratio img, .card img {
+    object-fit: cover;
+}
+table tr{
+    border-bottom: 0px solid #151412;
+}
+table td{
+    width: calc(100%/3);
+}
+.align-center{
+    align-items: center;
+    justify-content: center;
+}
+.align-right{
+    align-items: center;
+    justify-content: right;
+}
+.card{
+    background-color: rgb(32, 29, 28);
+}
+.accordion-bg{
+    background-color: #100f0f !important;
+}
+.accordion-bg-light{
+    background-color: #1f1d1b;
+}
+:focus {
+    outline: 0 !important;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0) !important;
+}
+.border-none{
+    border: 0px solid #1f1d1b;
+}
+.footer{
+    background-color: #302e2b;
+}
+@media  (min-width: 576px) {
+    .card{
+        background-color: rgb(32, 29, 28);
+        max-height: max-content;
+    }
+    .height{
+        height: 1em;
+    }
+}
+@media  (min-width: 768px) {
+    .card{
+        background-color: rgb(32, 29, 28);
+        height: 30em;
+    }
+    .height{
+        height: 3em;
+    }
+}
